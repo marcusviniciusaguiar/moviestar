@@ -27,10 +27,9 @@ moviestar/
 
 ## ⚙️ Como Executar o Projeto Localmente
 
-1. **Clonar este repositório**
-
-```bash
-git clone https://github.com/marcusviniciusaguiar/moviestar.git
+Clonar este repositório
+  ```bash
+    git clone https://github.com/marcusviniciusaguiar/moviestar.git
 
 Mover para o diretório do projeto:
   cd moviestar
