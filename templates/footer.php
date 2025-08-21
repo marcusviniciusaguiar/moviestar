@@ -43,7 +43,7 @@
           <li><a href="<?= $BASE_URL ?>newmovie.php">Adicionar filme</a></li>
           <li><a href="<?= $BASE_URL ?>">Adicionar crítica</a></li>
           <?php else: ?>
-          <li><a href="<?= $BASE_URL ?>auth.php">Entrar / Registrar</a></li>
+          <li><a href="<?= $BASE_URL ?>auth.php">Entrar / Cadastrar</a></li>
           <?php endif; ?>
         </ul>
       </div>

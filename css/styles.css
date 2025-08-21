@@ -1,3 +1,5 @@
+
+
 /* Navbar */
 .navbar-brand {
     position: relative;
@@ -90,11 +92,17 @@
 
 
 /* HOME */
-#main-container {
+#main-container,
+#main-container-auth {
     background-color: #000;
     color: #FFF;
     min-height: 70vh;
     padding: 40px;
+    flex: 1;
+}
+
+#main-container-auth {
+    min-height: calc(100vh - 280px);
 }
 
 .section-title {
@@ -171,7 +179,9 @@
 
 
 /* LOGIN / REGISTER */
-#auth-row{
+
+
+#auth-row {
     justify-content: space-evenly;
 }
 
@@ -472,6 +482,7 @@
     color: #FFF;
     text-align: center;
     margin: 0;
+    margin-top: auto;
     padding: 20px;
     bottom: 0%;
     width: 100%;

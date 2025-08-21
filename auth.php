@@ -1,7 +1,7 @@
 <?php
 require_once("templates/header.php");
 ?>
-    <div id="main-container" class="cotainer-fluid">
+    <div id="main-container-auth" class="cotainer-fluid">
       <div class="col-md-12">
         <div class="row" id="auth-row">
           <div class="col-md-4" id="login-container">
@@ -28,7 +28,7 @@ require_once("templates/header.php");
                  <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail">
               </div>
               <div class="form-group">
-                 <label for="email">Nome</label>
+                 <label for="name">Nome</label>
                  <input type="text" class="form-control" id="email" name="name" placeholder="Digite seu nome">
               </div>
               <div class="form-group">
